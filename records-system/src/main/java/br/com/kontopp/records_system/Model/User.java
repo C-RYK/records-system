@@ -2,11 +2,15 @@ package br.com.kontopp.records_system.Model;
 
 public class User {
 
-	String name;
+	public String name;
 	
-	int age;
+	public int age;
 	
-	String gender;
+	public String gender;
+
+	public User() {
+		super();
+	}
 
 	public User(String name, int age, String gender) {
 		super();
